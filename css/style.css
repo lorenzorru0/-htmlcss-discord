@@ -6,6 +6,10 @@
 }
 
 /* Common */
+body {
+    max-width: 1180px;
+    margin: auto;
+}
 .conteiner {
     width: 80%;
     margin: auto;
@@ -14,6 +18,12 @@
     content: "";
 	display: table;
 	clear: both;
+}
+.subconteiner {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .btn {
     padding: 8px;
@@ -46,6 +56,7 @@ p {
 }
 h2 {
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 /* Header */
@@ -95,12 +106,8 @@ header .conteiner div .btn {
     position: relative;
     color: white;
 }
-.subconteiner {
+hero .conteiner .subconteiner {
     width: 40%;
-    position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 .subconteiner .btn {
     margin: 20px 10px 0px 10px;
@@ -113,12 +120,34 @@ header .conteiner div .btn {
 
 section {
     margin: 150px 0px;
-    height: 50vh;
+    height: 550px;
 }
 .sec-2nd .conteiner .img-sec {
     text-align: right;
 }
 
+.sec-4th {
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sec-4th img {
+    margin-top: 20px;
+}
+.stars {
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+	transform: translate(-50%);
+}
+.btn-blue {
+    margin: 20px 10px 0px 10px;
+    padding: 15px;
+    color: white;
+    background-color: #8ea1e1;
+}
 
 
 /* Hover */
@@ -131,5 +160,8 @@ section {
 }
 .btn-black:hover {
     background-color: rgb(61, 61, 61);
+}
+.btn-blue:hover {
+    background-color: #566ebd;
 }
 
