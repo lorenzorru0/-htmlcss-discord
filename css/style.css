@@ -7,7 +7,6 @@
 
 /* Common */
 body {
-    max-width: 1180px;
     margin: auto;
 }
 .conteiner {
@@ -149,6 +148,68 @@ section {
     background-color: #8ea1e1;
 }
 
+/* Footer */
+footer {
+    background-color: #23272a;
+}
+.big-col {
+    width: 30%;
+    float: left;
+}
+.small-col {
+    width: calc(70% / 4);
+    float: left;
+}
+.liste {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.liste ul {
+    list-style: none;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.liste li, .liste h3 {
+    color: #7289da;
+}
+.liste li a{
+    display: inline-block;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: white;
+}
+footer hr {
+    color: #7289da;
+}
+.liste h3 {
+    padding-bottom: 15px;
+}
+.big-col img {
+    height: 15px;
+    vertical-align: middle;
+}
+.big-col span {
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+}
+.icons {
+    margin-top: 15px;
+}
+.icons a {
+    color: white;
+    margin-right: 15px;
+}
+.last-row {
+    padding: 25px 0px;
+}
+.last-row img {
+    height: 30px;
+}
+.last-row button {
+    float: right;
+}
+
 
 /* Hover */
 .main-nav li a:hover {
@@ -163,5 +224,8 @@ section {
 }
 .btn-blue:hover {
     background-color: #566ebd;
+}
+.liste a:hover {
+    color: #7289da;
 }
 
