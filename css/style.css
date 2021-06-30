@@ -22,6 +22,15 @@
     background-color: white;
     color: #23272a;
 }
+.img-sec {
+    width: 75%;
+    float: left;
+}
+.text-sec {
+    width: 25%;
+    float: left;
+    color: black;
+}
 
 /* Typo */
 body {
@@ -33,6 +42,9 @@ h1 {
 }
 p {
     line-height: 25px;
+}
+h2 {
+    font-size: 35px;
 }
 
 /* Header */
@@ -96,6 +108,11 @@ header .conteiner div .btn {
 .btn-black {
     color: white;
     background-color: black;
+}
+
+section {
+    margin: 150px 0px;
+    height: 75vh;
 }
 
 /* Hover */
