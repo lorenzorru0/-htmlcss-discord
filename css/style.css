@@ -27,10 +27,17 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+p {
+    line-height: 25px;
+}
 
 /* Header */
 header {
-    background-color: rgb(49, 97, 224);
+    background-color: #245EE9;
     padding: 25px 0px;
     font-size: 12px;
 }
@@ -64,13 +71,42 @@ header .conteiner div .btn {
     float: right;
 }
 
+/* Main */
+.hero {
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.subconteiner {
+    width: 40%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.subconteiner .btn {
+    margin: 20px 10px 0px 10px;
+    padding: 15px;
+}
+.btn-black {
+    color: white;
+    background-color: black;
+}
+
 /* Hover */
 .main-nav li a:hover {
     background-color: rgb(57, 57, 185);
     border-radius: 20px;
 }
-header .conteiner div .btn:hover {
+.btn-white:hover {
     background-color: lightgray;
 }
-
+.btn-black:hover {
+    background-color: rgb(61, 61, 61);
+}
 
