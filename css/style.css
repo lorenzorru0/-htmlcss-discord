@@ -30,7 +30,7 @@ body {
 
 /* Header */
 header {
-    background-color: #3161e0;
+    background-color: rgb(49, 97, 224);
     padding: 25px 0px;
     font-size: 12px;
 }
@@ -51,18 +51,26 @@ header .conteiner nav {
     display: block;
 }
 .main-nav ul {
-    line-height: 30px;
     text-align: center;
-}
-.main-nav li {
-    margin: 0px 20px;
 }
 .main-nav li a{
     text-decoration: none;
     color: white;
+    line-height: 30px;
+    padding: 7.5px 20px;
+    border-radius: 20px;
 }
 header .conteiner div .btn {
     float: right;
+}
+
+/* Hover */
+.main-nav li a:hover {
+    background-color: rgb(57, 57, 185);
+    border-radius: 20px;
+}
+header .conteiner div .btn:hover {
+    background-color: lightgray;
 }
 
 
