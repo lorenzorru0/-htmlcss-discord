@@ -30,6 +30,7 @@
     width: 25%;
     float: left;
     color: black;
+    padding-top: 40px;
 }
 
 /* Typo */
@@ -112,8 +113,13 @@ header .conteiner div .btn {
 
 section {
     margin: 150px 0px;
-    height: 75vh;
+    height: 50vh;
 }
+.sec-2nd .conteiner .img-sec {
+    text-align: right;
+}
+
+
 
 /* Hover */
 .main-nav li a:hover {
