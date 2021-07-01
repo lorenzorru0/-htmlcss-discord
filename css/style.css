@@ -31,6 +31,7 @@ a {
 }
 .btn {
     display: inline-block;
+    line-height: normal;
     padding: 8px;
     border-radius: 20px;
     border: none;
@@ -67,7 +68,7 @@ h2 {
 /* Header */
 header {
     background-color: #245EE9;
-    padding: 25px 0px;
+    line-height: 60px;
     font-size: 12px;
 }
 .main-nav li,
@@ -82,9 +83,8 @@ header .conteiner nav {
     width: 70%;
     float: left;
 }
-.logo {
-    height: 30px;
-    display: block;
+.logo img{
+    vertical-align: middle;
 }
 .main-nav ul {
     text-align: center;
@@ -93,9 +93,6 @@ header .conteiner nav {
     line-height: 30px;
     padding: 7.5px 20px;
     border-radius: 20px;
-}
-header .conteiner div .btn {
-    float: right;
 }
 
 /* Main */
