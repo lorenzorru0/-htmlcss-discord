@@ -11,6 +11,7 @@ body {
 }
 .conteiner {
     width: 80%;
+    max-width: 1200px;
     margin: auto;
 }
 .clearfix::after {
@@ -119,13 +120,10 @@ hero .conteiner .subconteiner {
 
 section {
     padding: 100px 0px;
-    height: 600px;
+    height: 700px;
 }
 .sec-2nd .conteiner .img-sec {
     text-align: right;
-}
-.sec-1st {
-    margin-bottom: 50px;
 }
 .sec-2nd {
     background-color: #F6F6F6;
