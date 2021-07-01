@@ -25,6 +25,10 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 .btn {
     padding: 8px;
     border-radius: 20px;
@@ -85,8 +89,6 @@ header .conteiner nav {
     text-align: center;
 }
 .main-nav li a{
-    text-decoration: none;
-    color: white;
     line-height: 30px;
     padding: 7.5px 20px;
     border-radius: 20px;
@@ -190,8 +192,6 @@ footer {
 .liste li a{
     display: inline-block;
     padding: 5px 0px;
-    text-decoration: none;
-    color: white;
 }
 footer hr {
     color: #7289da;
@@ -212,7 +212,6 @@ footer hr {
     margin-top: 15px;
 }
 .icons a {
-    color: white;
     margin-right: 15px;
 }
 .last-row {
